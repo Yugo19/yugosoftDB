@@ -1,0 +1,21 @@
+{
+  "name": "yugosoftdb",
+  "version": "1.0.0",
+  "description": "Backend for yugosoft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Yugo19",
+  "license": "MIT",
+  "dependencies": {
+    "@neo4j/graphql": "^3.16.0",
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0",
+    "neo4j-driver": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
